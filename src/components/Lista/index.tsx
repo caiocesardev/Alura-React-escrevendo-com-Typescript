@@ -1,9 +1,10 @@
-import style from './Lista.module.scss';
-import Item from './Item';
+import React from 'react';
 import { ITarefa } from '../../types/tarefa';
+import Item from './Item';
+import style from './Lista.module.scss';
 
-function Lista({ tarefas }: { tarefas: Array<ITarefa> }) {
 
+function Lista({ tarefas }: { tarefas: ITarefa[] }) {
   return (
     <aside className={style.listaTarefas}>
       <h2> Estudos do dia </h2>
