@@ -5,7 +5,7 @@ import style from './Lista.module.scss';
 
 interface Props {
   tarefas: ITarefa[],
-  selecionaTarefa: (tarefaSelecionada: ITarefa) => void
+  selecionaTarefa: (tarefaSelecionada: ITarefa) => void 
 }
 
 
